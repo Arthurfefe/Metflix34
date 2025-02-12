@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.net {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+
+body {
+    background-color: black;
+    font-family: "Archivo Black", serif;
+
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1300px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.card-img-overlay {
+    color: color-mix(in srgb, color percentage, color percentage);
+}
+
+.card {
+    background-color: black;
+    border-color: azure;
+    width: 900px;
+    padding: 2px;
+    margin-left: 20px;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    height: 20px auto;
+    display: block;
+
+}
+
+.card-text {
+    color: rgb(0, 0, 0);
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+
+}
+
+div {
+    margin: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.lista-cards, .cards2{
+    display: flex;
+flex-wrap: wrap;
+}
+
+
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.card-text {
+    display: none;
+    font-size: 11px;
+}
+
+.card:hover .card-text {
+    display: block;
+    background-color: floralwhite;
+    border-radius: 20px;
+   
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    font-size: 55px;
+}
+
+h2 {
+    text-align: center;
+    color: azure;
+    font-size: 55px;
+}
+.card-title{
+    text-shadow: 1px 1px 50px rgb(255, 255, 255), 0 0 1em rgb(0, 0, 0), 0 0 0.5em rgb(0, 0, 0);
+}
+.a{
+    
+   
+
+    
+}
